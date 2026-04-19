@@ -8,13 +8,15 @@ export default function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
         <div>
           <div className="flex items-center gap-3">
-            <Image
-              src="/logo.jpeg"
-              alt="Healfast India logo"
-              width={44}
-              height={44}
-              className="rounded-full border border-gray-100"
-            />
+            <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-gray-100 bg-white shadow-sm">
+              <Image
+                src="/logo.jpeg"
+                alt="Healfast India logo"
+                width={80}
+                height={80}
+                className="h-full w-full scale-[1.75] object-cover object-center"
+              />
+            </div>
             <h3 className="text-xl font-semibold text-primary">Healfast India</h3>
           </div>
           <p className="mt-3 text-sm text-gray-600">

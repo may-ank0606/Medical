@@ -210,8 +210,7 @@ export const blogs: BlogPost[] = [
 export const trustStats = [
   { label: 'Patients Served', value: '200+' },
   { label: 'Qualified Professionals', value: '50+' },
+  { label: 'CareGiver', value: '90+' },
   { label: 'Response Time', value: '< 30 min' },
-  { label: 'Service Availability', value: '7 Days' },
-  { label: 'Care Given', value: '90+' },
-  { label: 'Trained Nurses', value: '90+' }
+  { label: 'Service Availability', value: '7 Days' }
 ];

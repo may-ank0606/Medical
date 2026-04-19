@@ -22,16 +22,18 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
         <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/logo.jpeg"
-            alt="Healfast India logo"
-            width={64}
-            height={64}
-            className="rounded-lg border-2 border-secondary/20 shadow-md"
-          />
+          <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full border-2 border-secondary/20 bg-white shadow-md">
+            <Image
+              src="/logo.jpeg"
+              alt="Healfast India logo"
+              width={96}
+              height={96}
+              className="h-full w-full scale-[1.75] object-cover object-center"
+            />
+          </div>
           <div className="flex flex-col leading-tight">
             <span className="text-xl font-semibold text-primary">Healfast India</span>
-            <p className="text-sm font-semibold text-primary">Also Empowering Health Together</p>
+            <p className="text-sm font-semibold text-primary">Empowering Health Together</p>
           </div>
         </Link>
 
