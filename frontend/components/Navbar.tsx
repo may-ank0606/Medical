@@ -20,16 +20,19 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
-        <Link href="/" className="flex items-center gap-2 text-lg font-semibold text-primary">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
+        <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logo.jpeg"
             alt="Healfast India logo"
-            width={34}
-            height={34}
-            className="rounded-full border border-gray-100"
+            width={64}
+            height={64}
+            className="rounded-lg border-2 border-secondary/20 shadow-md"
           />
-          <span>Healfast India</span>
+          <div className="flex flex-col leading-tight">
+            <span className="text-xl font-semibold text-primary">Healfast India</span>
+            <p className="text-sm font-semibold text-primary">Also Empowering Health Together</p>
+          </div>
         </Link>
 
         <ul className="hidden items-center gap-6 md:flex">

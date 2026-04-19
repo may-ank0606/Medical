@@ -19,7 +19,7 @@ export default function ContactPage() {
 
           <div className="flex items-start gap-3 text-sm text-gray-700">
             <MapPin size={18} className="mt-0.5 text-primary" />
-            <p>Healfast India Office, New Delhi, India</p>
+            <p>120 B Sainik Enclave Part-3, CRPF Camp, Jharoda Kalan Road, Najafgarh - 110072</p>
           </div>
 
           <div className="flex items-start gap-3 text-sm text-gray-700">

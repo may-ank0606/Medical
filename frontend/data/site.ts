@@ -103,7 +103,7 @@ export const serviceGroups: DetailedServiceGroup[] = [
           'Placement check as per standard bedside protocol',
           'Family education for routine tube care'
         ],
-        notIncludes: ['Radiology confirmation charges if required', 'Critical emergency airway procedures'],
+        notIncludes: ['Endoscopic placement or correction procedures', 'Critical emergency airway procedures'],
         suitableFor: 'Patients requiring enteral feeding support at home'
       }
     ]
@@ -173,7 +173,7 @@ export const serviceGroups: DetailedServiceGroup[] = [
           'Hygiene and feeding support',
           'Routine condition monitoring'
         ],
-        notIncludes: ['Ventilator ICU setup', 'Complex hospital emergency intervention'],
+        notIncludes: ['ICU-level life support care', 'Complex hospital emergency intervention'],
         suitableFor: 'Long-term dependent patients requiring consistent home care'
       }
     ]
@@ -208,8 +208,10 @@ export const blogs: BlogPost[] = [
 ];
 
 export const trustStats = [
-  { label: 'Patients Served', value: '1500+' },
+  { label: 'Patients Served', value: '200+' },
   { label: 'Qualified Professionals', value: '50+' },
   { label: 'Response Time', value: '< 30 min' },
-  { label: 'Service Availability', value: '7 Days' }
+  { label: 'Service Availability', value: '7 Days' },
+  { label: 'Care Given', value: '90+' },
+  { label: 'Trained Nurses', value: '90+' }
 ];

@@ -7,15 +7,15 @@ export default function Footer() {
     <footer className="mt-16 border-t border-gray-100 bg-white">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
         <div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <Image
               src="/logo.jpeg"
               alt="Healfast India logo"
-              width={32}
-              height={32}
+              width={44}
+              height={44}
               className="rounded-full border border-gray-100"
             />
-            <h3 className="text-lg font-semibold text-primary">Healfast India</h3>
+            <h3 className="text-xl font-semibold text-primary">Healfast India</h3>
           </div>
           <p className="mt-3 text-sm text-gray-600">
             Home healthcare services you can trust. Professional, compassionate, and always nearby.
